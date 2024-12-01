@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+background:purple; 
+padding:2rem;  
+/* justify-content: center; */
+/* align-content: center; */
+}
+nav {
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+nav  a{ background-color: none;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+}
+}
+nav a:hover{
+    color: greenyellow;
+    background-color: aqua;
+    font-size: 20px;
+}
+.pat{
+    padding: 3rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white;
+}
+.Sun {
+    margin-top: 29px;
+display:flex;
+background-color: orange;
+align-items: center;
+justify-content: center;
+height: 80vh;
+}
+.cool img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid gold;
+
+    .About-me img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid gold
+    }
+}
+.cool h2{
+    color: blueviolet;
+    margin: 4rem;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}
+.footer-item{
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: gold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Contact h1{
+    font-size:3px;
+    align-content: center;
+}
+.form-item{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .back{
+background-color: none;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; */
+} 
+}
+.back a{
+    color: blue; 
+ }
+.back a:hover{
+    color:black ;
+    background-color: rgb(30, 0, 255);
+    font-size: 15px; 
+    .barbie {
+        font-family: cursive;
+    }
+
+/* .back a{
+    background: none;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif; */
+} */
+.apps {
+    font-size: 20px;
+    padding: 25px; */ 
+
+
+ }
+.pen h1{
+    margin: 15px;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+}
+@media screen and (min-width: 378px)
+header, nav,main, .footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header, footer{
+    position:sticky;
+    background-color: #1E293B;
+    color: whitesmoke;
+}
+a{
+    margin: 10px;
+    font-family: cursive;
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+
+.About-me img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid gold
+/* 
+    @media screen and (min-width: 378px)
+          header, nav,main, .footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+          } */
